@@ -103,37 +103,3 @@ public class OrderBookServiceTest {
     }
 
 
-   /*
-    @Test
-    public void transformPence_ParametersNull() {
-        log.info("transformPence_BigDecimalWitchDecimal: Begin");
-        try {
-            service.transformPence( null, null );
-            assertTrue(false);
-
-        } catch (ApiRequestException e) {
-            log.info((e.getMessage()));
-            if ( MessageError.ID_AND_PENCE_ARE_MANDATORY.getMessage().startsWith(e.getMessage()) ){ assertTrue(true); }
-        } catch (RuntimeException e) {
-            fail(e.getMessage());
-        }
-    }
-
-    @Test
-    public void transformPence_BigDecimalWitchDecimal() {
-        log.info("transformPence_ParametersNull: Begin");
-        try {
-            service.transformPence( new BigDecimal(222.1), "UUU_234");
-            assertTrue(false);
-
-        } catch (ApiRequestException e) {
-            log.info((e.getMessage()));
-            if ( MessageError.PENCE_NO_DECIMALS .getMessage().startsWith(e.getMessage()) ){ assertTrue(true); }
-        } catch (RuntimeException e) {
-            fail(e.getMessage());
-        }
-    }
-
-    */
-
-

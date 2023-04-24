@@ -46,8 +46,11 @@ cations do not eect time priority)
 • Given a side and a level (an integer value >0) return the price for that level (where level 1 represents the
 best price for a given side). For example, given side=B and level=2 return the second best bid price
 • Given a side and a level return the total size available for that level
-• Given a side return all the orders from that side of the book, in level- and time-order
-Part B
+• Given a side return all the orders from that side of the book, 
+in level- and time-order
+
+Part_B:
+
 Please suggest (but do not implement) modications or additions to the Order and/or OrderBook classes
 to make them better suited to support real-life, latency-sensitive trading operations.
   
